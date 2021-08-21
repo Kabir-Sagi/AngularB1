@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.nav div {
+    display: flex;
+    align-items: center;
+}
+h2 {
+    margin-left: 20px;
+}
+
+.landingpage {
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/7148995/pexels-photo-7148995.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=700") no-repeat ;
+}
+.landingpage div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.landingpage div h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+button {
+    padding: 15px 25px;
+    background-color: tomato;
+    border: none;
+    box-shadow:  0 0 10px white;
+}

@@ -1,0 +1,22 @@
+<div >
+  <!-- <h2>App Component</h2> -->
+  <div style="text-align: center;margin: 20px;">
+    <input type="radio" name="gender" checked (click)="change(true
+    )" />Landing Page
+    <input type="radio"  name="gender" (click)="change(false)" />Female
+  </div>
+  
+
+
+   <!-- <div *ngIf="gender; else elseblock">
+     <h2>I am Male</h2>
+   </div>
+
+   <ng-template  #elseblock>
+     <h2>I am Female</h2>
+   </ng-template> -->
+
+  <app-landingpage *ngIf="gender"></app-landingpage>
+
+
+</div>

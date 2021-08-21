@@ -1,0 +1,5 @@
+div {
+    background:linear-gradient(45deg,red,black);
+    padding: 10px;
+    color: white;
+}
